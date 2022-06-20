@@ -8,9 +8,11 @@
 	:white_check_mark: Concluído :white_check_mark:
 </h4>
 
-### Como Acessar
+### Instalação
+- npm install
 
-- Acesse a calculadora [nesse site](...)
+### Execução
+- npm run dev
 
 ### Funcionalidade 
 

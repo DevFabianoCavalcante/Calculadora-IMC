@@ -9,10 +9,10 @@
 </h4>
 
 ### Instalação
-- npm install
+- `npm install`
 
 ### Execução
-- npm run dev
+- `npm run dev`
 
 ### Funcionalidade 
 

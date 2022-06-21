@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { ChangeEvent, useState } from 'react'
 import './App.css'
 import * as C from './components/styled'
 
@@ -11,11 +11,11 @@ function App() {
   const [statusImc, setStatusImc] = useState('');
   const [colorResult, setColorResult] = useState('');
 
-  const changeWeightValue = (e:number): void => {
+  const changeWeightValue = (e:ChangeEvent<HTMLInputElement>) => {
     setFieldWeight(parseFloat(e.target.value))
   };
 
-  const changeHeightValue = (e:number): void => {
+  const changeHeightValue = (e:ChangeEvent<HTMLInputElement>) => {
     setFieldHeight(parseFloat(e.target.value))
   };
 

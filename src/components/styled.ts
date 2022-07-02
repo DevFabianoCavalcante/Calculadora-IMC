@@ -153,7 +153,12 @@ export const Btn = styled.button `
     }
 `;
 
-export const ContainerResult = styled.div `
+type display = {
+    display: string
+    color: string;
+}
+
+export const ContainerResult = styled.div<display> `
     display: ${props => props.display};
     flex-direction: column;
     justify-content: center;

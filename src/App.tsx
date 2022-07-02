@@ -56,7 +56,7 @@ function App() {
         <C.MainText>
           IMC é a sigla para indice de massa corporal, um calculo simples utilizado para verificar se o peso está ideal.
         </C.MainText>
-        <C.ImageFitness src='./src/img/fitness.svg' alt='Pessoa se exercitando com halteres' />
+        <C.ImageFitness src='../src/img/fitness.svg' alt='Pessoa se exercitando com halteres' />
       </C.LeftSide>
       <C.RightSide>
         <C.CalcContainer>

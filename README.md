@@ -8,11 +8,9 @@
 	:white_check_mark: Concluído :white_check_mark:
 </h4>
 
-### Instalação
-- `npm install`
+### Como acessar
 
-### Execução
-- `npm run dev`
+[Clique aqui](https://calculadora-imc-fcs.netlify.app/)
 
 ### Funcionalidade 
 

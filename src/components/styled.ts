@@ -119,7 +119,8 @@ export const Input = styled.input `
     
 
     &:focus {
-        border: 2px solid #D7C9FF;
+        transition: 0.5s;
+        transform: scale(1.1);
     }
 
     @media(max-width: 1200px) {

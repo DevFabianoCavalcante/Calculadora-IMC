@@ -1,6 +1,7 @@
 import { ChangeEvent, useState } from 'react'
 import './App.css'
 import * as C from './components/styled'
+import fitnessImg from './img/fitness.svg'
 
 function App() {
 
@@ -56,7 +57,7 @@ function App() {
         <C.MainText>
           IMC é a sigla para indice de massa corporal, um calculo simples utilizado para verificar se o peso está ideal.
         </C.MainText>
-        <C.ImageFitness src='../src/img/fitness.svg' alt='Pessoa se exercitando com halteres' />
+        <C.ImageFitness src={fitnessImg}/>
       </C.LeftSide>
       <C.RightSide>
         <C.CalcContainer>
